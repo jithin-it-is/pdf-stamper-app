@@ -139,7 +139,7 @@ def main():
             st.write(f"Original image dimensions: {original_width} x {original_height} pixels")
             
             # Single slider for scaling (default 1.0 = original size)
-            scale = st.slider("Stamp Scale", 0.1, 5.0, 1.0, 0.1,
+            scale = st.slider("Stamp Scale", 0.1, 1.0, 1.0, 0.01,
                             help="1.0 = original size, 0.5 = half size, 2.0 = double size")
             
             # Calculate and display preview dimensions
