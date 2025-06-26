@@ -148,7 +148,7 @@ def main():
             st.write(f"Preview dimensions: {preview_width} x {preview_height} pixels")
             
             # Show preview of the stamp
-            st.image(img, caption="Original Stamp Preview", use_column_width=True)
+            st.image(img, caption="Original Stamp Preview", use_container_width=True)
     
     position_options = ["Top Left", "Top Right", "Bottom Left", "Bottom Right", "Center"]
     position = st.selectbox("Stamp Position", position_options)
